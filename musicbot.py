@@ -9,11 +9,11 @@ import pytube
 import telebot
 
 # Replace these with your own values
-TELEGRAM_API_TOKEN = '5825877289:AAFOoCbe6atF5HGyIPwDTafeAZsZ9PZKvwM'
-YOUTUBE_API_KEY = 'AIzaSyDYTPh8Hz-F0yDZR0zO7_ykeT9edD_ew54'
+TELEGRAM_API_TOKEN = '5825877289:AAGBywxCM0jX7r1P8bcfzG5Eyi2VGhAJnys'
+YOUTUBE_API_KEY = 'AIzaSyC00yh-jggAKEhIeeXcvfIxdrNnADAuy20'
 
 # Initialize the Telegram bot
-bot = telebot.TeleBot('5825877289:AAFOoCbe6atF5HGyIPwDTafeAZsZ9PZKvwM', parse_mode=None)
+bot = telebot.TeleBot('5825877289:AAGBywxCM0jX7r1P8bcfzG5Eyi2VGhAJnys', parse_mode=None)
 
 # Set the chat_id of the user or group you want to send the audio to
 #cid= (message.chat.id)
